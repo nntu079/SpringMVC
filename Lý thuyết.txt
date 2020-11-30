@@ -17,3 +17,5 @@ Load 2 file config quan trọng
 <context-param> : load file applicationContext.xml
 <servlet> : load file dispatcher-servlet.xml
 
+
+Jsp Include Directive:     <%@ include file="resourceName" %>  
