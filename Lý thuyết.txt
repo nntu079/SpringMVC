@@ -1,1 +1,3 @@
 
+.war : project hoàn chỉnh, để deploy
+.jar : file thư viện, api
