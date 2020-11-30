@@ -2,10 +2,18 @@
 .war : project hoàn chỉnh, để deploy
 .jar : file thư viện, api
 
+Gi ải thích file dispatcher-servlet.xml
+base-package : chỉ ra package controller
+mvc:annotation-driven : để xài được các annotation spring mvc như @controller @requestmapping
+
 Một số dependencies của spring
 - jsp : thỏa mãn khi view sử dụng là jsp, giống html thuần nhưng có thể sử dụng thêm lib support cho jsp như jstl (logic như vòng lặp khi hiện dữ liệu), spring form, spring security để phân quyền.
 
 Các đối tượng trong controllers
 - ModelAndView obj: model là data, view là trang định nghĩa trong views chỉ cần truyền vô tên file vì đường dẫn và đuôi đã định nghĩa ở file dispatcher-servlet
 
+Giải thích file web.xml
+Load 2 file config quan trọng
+<context-param> : load file applicationContext.xml
+<servlet> : load file dispatcher-servlet.xml
 
