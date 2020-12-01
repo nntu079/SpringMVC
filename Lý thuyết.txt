@@ -19,3 +19,8 @@ Load 2 file config quan trọng
 
 
 Jsp Include Directive:     <%@ include file="resourceName" %>  
+_____________________________________________________________________________________________
+
+@RestController :  tells Spring that this code describes an endpoint that should be made available over the web.
+@GetMapping(“/hello”) : tells Spring to use our hello() method to answer requests that get sent to the http://localhost:8080/hello address.
+@RequestParam : telling Spring to expect a name value in the request
