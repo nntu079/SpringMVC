@@ -1,0 +1,5 @@
+Đầu tiên chạy vào web.xml => chạy vô dispatcher => quét kiếm controller thông qua thẻ <context>
+
+
+@Controller : Đây là lớp controller
+@RequestMapping : Xử lý request tương ứng
